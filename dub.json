@@ -1,0 +1,8 @@
+{
+	"name": "wafom",
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2014, ryuichi",
+	"authors": ["ryuichi"],
+	"dependencies": {
+	}
+}
