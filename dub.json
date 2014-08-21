@@ -1,8 +1,9 @@
 {
 	"name": "wafom",
-	"description": "A minimal D application.",
-	"copyright": "Copyright © 2014, ryuichi",
-	"authors": ["ryuichi"],
+	"description": "Walsh Figure of Merit: A Computable Figure of Merit for Quasi-Monte Carlo Point Sets.",
+	"copyright": "Copyright (c) 2014, Ryuichi OHORI",
+	"authors": ["Ryuichi OHORI"],
+	"license": "In preparation",
 	"dependencies": {
 	}
 }
