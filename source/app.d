@@ -1,6 +1,15 @@
-import std.stdio;
+import std.stdio, std.conv;
 
-void main()
+import wafom.approximated;
+import digitalnet.implementation;
+
+void main(string[] args)
 {
-	writeln("Edit source/app.d to start your project.");
+	real c = 1;
+	if (args.length == 1)
+		stderr.writeln("no parameter c specified: use default value 1.");
+	else
+		c = args[1].to!real;
+	foreach (line; stdin.byLine)
+		line.toDigitalNet.WAFOM(c).lg.writeln;
 }

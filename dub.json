@@ -1,9 +1,14 @@
 {
 	"name": "wafom",
-	"description": "Walsh Figure of Merit: A Computable Figure of Merit for Quasi-Monte Carlo Point Sets.",
+	"description": "Walsh figure of merit: a computable figure of merit for quasi-Monte Carlo point sets.",
 	"copyright": "Copyright (c) 2014, Ryuichi OHORI",
 	"authors": ["Ryuichi OHORI"],
 	"license": "In preparation",
-	"dependencies": {
+	"dependencies":
+	{
+		"digitalnet":
+		{
+			"version": "~>0.1"
+		}
 	}
 }
