@@ -1,8 +1,6 @@
 {
 	"name": "original-wafom",
 	"description": "Read digital nets from standard input, and then write it with WAFOM value, with specified derivation-sensitivity parameter(s).",
-	"copyright": "Copyright © 2015, ryuichi",
-	"authors": ["ryuichi"],
 	"dependencies":
 	{
 		"digitalnet":

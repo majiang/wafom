@@ -1,5 +1,5 @@
 {
-	"name": "approximated-wafom",
+	"name": "precomputation-wafom",
 	"description": "Read digital nets from standard input, and then write it with WAFOM value, with specified derivation-sensitivity parameter(s).",
 	"dependencies":
 	{

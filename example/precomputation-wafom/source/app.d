@@ -1,6 +1,6 @@
 import std.stdio, std.conv, std.algorithm, std.array, std.string;
 
-import wafom.original;
+import wafom.precomputation;
 import digitalnet.implementation;
 
 void main(string[] args)
@@ -8,12 +8,10 @@ void main(string[] args)
 	real[] c;
 	if (args.length == 1)
 	{
-		stderr.writeln("original-wafom c...");
-		stderr.writeln("using default value c = [1]");
-		c = [1];
+		stderr.writeln("precomputation-wafom c...");
+		return;
 	}
-	else
-		c = args[1..$].map!(to!real).array;
+	c = args[1..$].map!(to!real).array;
 	foreach (line; stdin.byLine)
 	{
 		line.strip.split(",")[0].write;
