@@ -5,15 +5,14 @@ import digitalnet.implementation;
 
 void main(string[] args)
 {
-	real[] c;
-	if (args.length == 1)
-	{
+	const c =
+	(){
+		if (1 < args.length)
+			return args[1..$].map!(to!real).array;
 		stderr.writeln("original-wafom c...");
 		stderr.writeln("using default value c = [1]");
-		c = [1];
-	}
-	else
-		c = args[1..$].map!(to!real).array;
+		return [real(1)];
+	}();
 	foreach (line; stdin.byLine)
 	{
 		line.strip.split(",")[0].write;
