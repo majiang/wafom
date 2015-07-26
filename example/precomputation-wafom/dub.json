@@ -3,10 +3,6 @@
 	"description": "Read digital nets from standard input, and then write it with WAFOM value, with specified derivation-sensitivity parameter(s).",
 	"dependencies":
 	{
-		"digitalnet":
-		{
-			"version": "~>0.2"
-		},
 		"wafom":
 		{
 			"version": "~>0.2",

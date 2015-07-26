@@ -2,3 +2,4 @@
 *.lib
 .dub
 *.lst
+dub.selections.json
